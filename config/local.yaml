@@ -1,0 +1,6 @@
+env: "local"
+mq_engine:
+  queues: ["q0", "q1", "q2"]
+  message_limit: 1000
+http_server:
+  address: "0.0.0.0:8082"
